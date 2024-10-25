@@ -1,0 +1,36 @@
+/* src/components/Footer.css */
+.footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .footer p {
+        font-size: 14px; /* Smaller font size on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .footer p {
+        font-size: 12px; /* Even smaller font size on extra small screens */
+    }
+}

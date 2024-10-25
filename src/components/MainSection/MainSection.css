@@ -1,0 +1,26 @@
+/* Main Section */
+.main {
+    /* background-image: url("first.jpg"); */
+    background-image: url("pasta1.jpg");
+    background-size: cover;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainText h1 span {
+    color: #ffea04;
+    
+}
+
+.order-btn {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
